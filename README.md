@@ -40,13 +40,16 @@ The model was trained on a custom dataset of eye images. Validation results show
 - **Non-background Precision:** 100%  
 - **F1 Score:** ~0.84 (INT8 quantized)  
 - **Accuracy:** 99.9% (weighted)
+- 
   ![Model Performance](iShot_2026-01-06_23.35.13.png)
+  
 **Figure 2:** Confusion matrix and classification report for Open, Closed, and Background classes.
 
 ### Training Progress
 
 The training process shows stable convergence with minimal loss, indicating good generalization to new users and environments.
  ![Training Progress](download.png)
+ 
 **Figure 3:** Training and validation loss/accuracy curves.
 
 ---
@@ -60,7 +63,7 @@ EdgeEye runs on the **ESP32-CAM** module. Due to limited memory (520 KB SRAM), t
 - **Inference Time:** ~2674 ms  
 - **Peak RAM Usage:** 363.2 KB  
 - **Flash Usage:** 111.4 KB  
-
+ ![On-device performance](iShot_2026-01-06_23.10.08.png)
 **Figure 4:** On-device performance metrics from Edge Impulse deployment.
 
 ---
@@ -76,9 +79,9 @@ EdgeEye runs on the **ESP32-CAM** module. Due to limited memory (520 KB SRAM), t
 ### Steps
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/EdgeEye-TinyML-Drowsiness-Detection.git
-````
+`bash
+   git clone https://github.com/Saiful-Islam0/EdgeEye-TinyML-Drowsiness-Detection-ESP32-Cam.git
+
 
 2. **Include the Library**
 
@@ -99,12 +102,11 @@ EdgeEye runs on the **ESP32-CAM** module. Due to limited memory (520 KB SRAM), t
 
 ## 📁 Repository Structure
 
-```
+
 /firmware   → Arduino source code and exported TinyML library  
 /dataset    → Sample training images (Open/Closed eyes)  
 /models     → Quantized .tflite models and metadata  
 /docs       → Performance charts and real-world testing images  
-```
 
 ---
 
