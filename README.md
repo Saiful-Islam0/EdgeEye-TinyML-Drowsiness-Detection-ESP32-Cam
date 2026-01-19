@@ -10,7 +10,7 @@ EdgeEye is an end-to-end TinyML project designed to detect driver drowsiness in 
 
 The system can detect eye states even under challenging lighting conditions, including dark vehicle interiors.
 
-![Real-time detection of closed eyes in a dark environment](/Detecttion in dark environment.png)
+![Real-time detection of closed eyes in a dark environment](/Detecttion_in_dark_environment.png)
 **Figure 1:** Real-time detection of closed eyes in a dark environment.
 
 ---
