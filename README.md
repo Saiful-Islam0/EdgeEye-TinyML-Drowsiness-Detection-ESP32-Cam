@@ -40,13 +40,13 @@ The model was trained on a custom dataset of eye images. Validation results show
 - **Non-background Precision:** 100%  
 - **F1 Score:** ~0.84 (INT8 quantized)  
 - **Accuracy:** 99.9% (weighted)
-
+  ![Model Performance](iShot_2026-01-06_23.35.13.png)
 **Figure 2:** Confusion matrix and classification report for Open, Closed, and Background classes.
 
 ### Training Progress
 
 The training process shows stable convergence with minimal loss, indicating good generalization to new users and environments.
-
+ ![Training Progress](download.png)
 **Figure 3:** Training and validation loss/accuracy curves.
 
 ---
